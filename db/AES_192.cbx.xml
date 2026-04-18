@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="AES_192">
+		<CBX_INST_ENTRY INSTANCE_NAME="|AES_top|BRAM:BRAM_inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_58r1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

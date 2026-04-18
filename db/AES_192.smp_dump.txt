@@ -1,0 +1,17 @@
+
+State Machine - |AES_top|AES_core:u_AEScore|current_state
+Name current_state.S_RUN current_state.S_DONE current_state.S_PREPARE_2 current_state.S_PREPARE current_state.S_IDLE 
+current_state.S_IDLE 0 0 0 0 0 
+current_state.S_PREPARE 0 0 0 1 1 
+current_state.S_PREPARE_2 0 0 1 0 1 
+current_state.S_DONE 0 1 0 0 1 
+current_state.S_RUN 1 0 0 0 1 
+
+State Machine - |AES_top|key_expansion_core:u_KEC|current_state
+Name current_state.S_INIT current_state.S_LOAD current_state.S_GEN_G current_state.S_DONE current_state.S_GEN_XOR current_state.S_IDLE 
+current_state.S_IDLE 0 0 0 0 0 0 
+current_state.S_GEN_XOR 0 0 0 0 1 1 
+current_state.S_DONE 0 0 0 1 0 1 
+current_state.S_GEN_G 0 0 1 0 0 1 
+current_state.S_LOAD 0 1 0 0 0 1 
+current_state.S_INIT 1 0 0 0 0 1 

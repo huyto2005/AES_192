@@ -1,5 +1,4 @@
-# Quartus temporary files
-db/
+#output folder
 incremental_db/
 output_files/
 simulation/
@@ -14,3 +13,5 @@ work/
 *.bak
 *.vstf
 *.wlf
+*.sdo_typ.csd
+*.vwf
