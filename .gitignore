@@ -1,0 +1,16 @@
+# Quartus temporary files
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+hc_output/
+work/
+
+# Logs and temp files
+*.log
+*.jou
+*.temp
+*.bak
+*.vstf
+*.wlf
